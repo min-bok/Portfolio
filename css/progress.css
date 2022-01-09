@@ -1,0 +1,16 @@
+.progressBody {
+    position: relative;
+    width: 16.25rem;
+    height: 1.25rem;
+    background-color: #d6e0fc;
+    border-radius: 10px;
+}
+
+.inside3 {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: #88a2e4;
+    border-radius: 10px;
+    left: 0;
+}
