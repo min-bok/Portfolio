@@ -358,6 +358,8 @@ head, body {
 
 .project {
     position: relative;
+    width: 100vw;
+    height: 140vh;
     display: flex;
     background-color: #d6e0fc;
     align-items: center;
@@ -397,10 +399,17 @@ head, body {
 }
 
 .macro {
+    display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: #d6e0fc;
+    justify-content: center;
+    align-items: center;
+}
+
+.macro .projectTitle {
+    position: absolute;
 }
 
 .hoursClick {
@@ -436,20 +445,57 @@ head, body {
     background-color: #FBE7C6;
 }
 
-
 /* Slide */
 
-.macro .slideWrap .slideList {
-    position: relative;
-    display: flex;
+.macro .slideWrap {
+    width: 80vw;
+    height: 90vh;
+}
+
+#carouselExampleControls,
+.carousel-inner,
+.carousel-item {
     width: 100%;
-    height: 100vh;
-    background-color: #e7d1a0;
-    align-items: center;
+    height: 100%;
+}
+
+.one {
+    background-color: burlywood;
+}
+
+.two {
+    background-color: chartreuse;
+}
+
+.three {
+    background-color: rgb(255, 208, 0);
+}
+
+
+
+/* .macro .slideWrap .slideBox {
+    width: 80vw;
+    height: 300px;
     overflow: hidden;
 }
 
-.macro .slideWrap .slideList .slideOne,
+.macro .slideWrap .slideBox .slideList {
+    width: 400vw;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.macro .slideWrap .slideBox .slideList .sildeContent {
+    width: 80vw;
+    height: 300px;
+    
+}
+
+.macro .slideWrap .slideBox .slideList .one {
+    background-color: #A0E7E5;
+} */
+
+/* .macro .slideWrap .slideList .slideOne,
 .macro .slideWrap .slideList .slideTwo,
 .macro .slideWrap .slideList .slideThree,
 .macro .slideWrap .slideList .slideFour {
@@ -498,7 +544,7 @@ head, body {
 
 .next {
     transform: translateX(-100%);;
-}
+} */
 
 /* footer */
 
