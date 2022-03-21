@@ -35,6 +35,10 @@
     margin-bottom: 3.813rem;
 }
 
+.aboutMobile {
+    display: none;
+}
+
 /**Mobile L 425X481**/
 @media all and (max-width: 426px){
     .aboutTitle {
@@ -49,7 +53,6 @@
         width: 40rem;
         margin: 0 auto;
         padding-bottom: 20.625rem;
-        /* background-color: palegreen; */
     }
 
     .aboutTextTitleOne,
@@ -66,6 +69,14 @@
 
     .aboutTextOne {
         margin-bottom: 6rem;
+    }
+
+    .aboutWeb {
+        display: none;
+    }
+
+    .aboutMobile {
+        display: block;
     }
 }
 
