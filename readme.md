@@ -9,12 +9,9 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
   
 # 👩 Portfoio
+This is a portfolio web page for self-introduction.
 
 <br>
 <br>
@@ -28,30 +25,10 @@ HTML, CSS, JavaScript
 # 🖥 Responsive
 <table>
   <tr>
-    <th>PC</th>
+    <th width='100px'>PC</th>
+    <th width='100px'>Tablet</th>
+    <th width='100px'>Moblie</th>
   </tr>
-    <tr>
-    <th>Tablet</th>
-  </tr>
-    <tr>
-    <th>Moblie</th>
-  </tr>
-  <!-- <tr>
-    <td>2690 x 1376</td>
-    <td>768 x 481</td>
-  </tr>
-  <tr>
-    <td>1920 x 1080</td>
-    <td>375 x 667 (iphone SE)</td>
-  </tr>
-  <tr>
-    <td>1440 x 740</td>
-    <td>390 x 844 (iphone 12 pro)</td>
-  </tr>
-    <tr>
-    <td>1042 x 642</td>
-    <td>412 x 915 (Samsung Galaxy S20 Ultra)</td>
-  </tr> -->
 </table>
 
 <br>
@@ -76,7 +53,7 @@ personal project
 <br>
 
 # 📆 Project period
-2022. 03.
+March, 2022
 
 <br>
 <br>
