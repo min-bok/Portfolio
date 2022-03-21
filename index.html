@@ -1,293 +1,291 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Portfolio | Hyeyeong-Lee</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/hamburger.css">
-    <link rel="stylesheet" href="./css/progress.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/nav2.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/work.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
-
 <body>
-    <main id="container">
-        <!-- <section id="followMe">
-            <img src="./img/ice.png" alt="스크롤 유도 빙하 이미지">
-        </section>
-        <section id="scroll"> -->
+    <!-- hamburger btn -->
+    <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </div>
 
-            <!-- welcome -->
-            <!-- <article class="welcome scrollPage">
-                <section class="backImg">
-                    <section class="circle">
-                        <img src="./img/ice.png" alt="배경 빙하 이미지" class="iceImg">
-                        <div class="water"></div>
-                    </section>
-                </section>
+    <!-- Header -->
+    <header id="header">
+        <div class="menuWrap">
+            <div class="menuHome menuHover">Home</div>
+            <div class="menuAbout">About</div>
+            <div class="menuSkills">Skills</div>
+            <div class="menuWork">My works</div>
+            <div class="menuContact">Contact</div>
+        </div>
+    </header>
 
-                <section class="welcomeTextWrap">
-                    <p class="job">Front-end Developer</p>
-                    <p class="name">HYEYEONG LEE</p>
-                    <p class="purpose">’s PORTFOLIO</p>
-                </section>
-            </article> -->
+    <!-- Home -->
+    <section id="home">
+        <div class="homeCont">
+            <p class="homeTitleMobile">디자인 역량을 겸비한 개발자 <span class="homeTitleBoldMobile">이혜영</span> 입니다.</p>
+            <div class="homeImg"></div>
+            <div class="homeTextWrap">
+                <p class="homeTitle">디자인 역량을 겸비한 개발자 <span class="homeTitleBold">이혜영</span> 입니다.</p>
+                <div>
+                    <div class="homeNameandBirthWrap">
+                        <div class="homeNameWrap">
+                            <p class="homeNameTitle">Name</p>
+                            <p class="homeName">이혜영</p>
+                        </div>
+                        <div class="homeBirthWrap">
+                            <p class="homeBirthTitle">Birth</p>
+                            <p class="homeBirth">1998. 08. 10</p>
+                        </div>
+                    </div>
+                    <div class="homePhoneWrap">
+                        <p class="homePhoneTitle">Phone</p>
+                        <p class="homePhone">+82 10 6208 6377</p>
+                    </div>
+                    <div class="homePlaceWrap">
+                        <p class="homePlaceTitle">Place</p>
+                        <p class="homePlace">Ulsan, South Korea</p>
+                    </div>
+                    <div class="homeEmailWrap">
+                        <p class="homeEmailTitle">Email</p>
+                        <p class="homeEmail">leehy0782@gmail.com</p>
+                    </div>
+                    <div class="homeDegreeWrap">
+                        <p class="homeDegreeTitle">Degree</p>
+                        <div class="homeDegreeTextWrap">
+                            <p class="homeDegreePolice">울산대학교 경찰학과 <span class="mobileNone">졸업예정</span></p>
+                            <p class="homeDegreeDesign">울산대학교 디지털 콘텐츠 디자인학과 <span class="mobileNone">졸업예정</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="homeWave"></div>
+    </section>
 
-            <!-- profile -->
-            <article class="profile">
-                <section class="profileTitle titleMove">
-                    <h1 class="titleShadow">Profile</h1>
-                    <p class="titleStyle">Profile</p>
-                </section>
+    <!-- About me -->
+    <section id="about">
+        <p class="aboutTitle title">About me</p>
+        <div class="aboutTextWrap">
+            <p class="aboutTextTitleOne">소통하는 개발자</p>
+            <p class="aboutTextOne">
+                <span class="mobileBlock">복수 전공을 통해 기획과 디자인을,</span> 멋쟁이 사자 처럼을 통해 Back-end를 경험해 본 적이 있습니다.
+                <span class="mobileBlock">이러한 경험은 기획자, 디자이너, Back-end 개발자와의</span> 원할한 의사소통에 도움이 될 것입니다.
+            </p>
+            <p class="aboutTextTitleTwo">디자인 의도를 잘 파악하고 구현할 수 있는 개발자</p>
+            <p class="aboutTextTwo">
+                <span class="mobileBlock">인터페이스 디자인, 웹 디자인 등의 수업을 통해</span> UI/UX  설계 및 디자인을 경험해 본 적이 있습니다.
+                <span class="mobileBlock">이러한 경험은 디자이너의 디자인 의도를 파악하고,</span> 이를 구현하는 데에 도움이 될 것입니다.
+            </p>
+        </div>
+    </section>
 
-                <section class="profileWrap">
-                    <section class="pic">
-                        <img src="./img/me.png" alt="프로필 사진">
-                    </section>
+    <!-- Skills -->
+    <section id="skills">
+        <p class="skillsTitle title">Skills</p>
+        <div class="skillsLevel">
+            <div class="skillsLevelWrap">
+                <div class="skillsLevelOne">
+                    <div class="skillsLevelImgOne"></div>
+                    <p class="skillsLevelTextOne">
+                        관련 지식이나 경험이 매우 제한적이며<br>
+                        기본적인 업무 수행에도 도움이 필요한 수준.<br>
+                        업무 관련 꾸준한 학습이 필요함
+                    </p>
+                </div>
+                <div class="skillsLevelTwo">
+                    <div class="skillsLevelImgTwo"></div>
+                    <p class="skillsLevelTextTwo">
+                        매우 능숙하진 않으나 경험이 있고,<br>
+                        기본적인 업무 수행이 가능한 수준.<br>
+                        추가적인 학습 및 타인의 도움이 필요할 수 있음
+                    </p>
+                </div>
+                <div class="skillsLevelThree">
+                    <div class="skillsLevelImgThree"></div>
+                    <p class="skillsLevelTextThree">
+                        관련 지식과 경험이 풍부하며<br>
+                        능숙하게 업무가 가능한 수준.<br>
+                        업무 수행에 특별한 도움이 필요없음
+                    </p>
+                </div>
 
-                    <section class="aboutMe">
-                        <section class="textWrap">
-                            <p class="name">Name 이혜영</p>
-                            <p class="age">Birth 1998.08.10</p>
-                            <p class="age">Place Seoul, South Korea</p>
-                            <p class="police">울산대학교 경찰학과 졸업예정</p>
-                            <p class="design">울산대학교 디지털 콘텐츠 디자인학과 졸업예정</p>
-                        </section>
-                        <section class="btnWrap">
-                            <button onclick="window.open('https://github.com/minbok-1998');" class="Github mybtn">Github</button>
-                            <button onclick="window.open('https://velog.io/@minbok');" class="Velog mybtn">Velog</button>
-                            <button class="mail mybtn">Email</button>
-                            <button class="HP mybtn">HP</button>
-                        </section>
-                    </section>
-                </section>
+                <div class="skillsLevelFour">
+                    <div class="skillsLevelImgFour"></div>
+                    <p class="skillsLevelTextFour">
+                        관련 지식과 경험이 많고<br>
+                        매우 유능하며, 다른 사람을 리드하고<br>
+                        교육할 수 있는 정도의 수준
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="skillLevelMobile"></div>
+        <div class="skillSet">
+            <div class="programmingOne">
+                <p class="skillHtml">HTML (3)</p>
+                <p class="skillCss">CSS (3)</p>
+                <p class="skillJs">JavaScript (2)</p>
+                <p class="skillReact">React (2)</p>
+                <p class="skillJquery">jQuery (1)</p>
+            </div>
+            <div class="programmingTwo">
+                <p class="skillTs">TypeScript (1)</p>
+                <p class="skillNode">Node.js (1)</p>
+                <p class="skillSass">SASS (1)</p>
+                <p class="skillBs">Bootstrap (2)</p>
+            </div>
+            <div class="designtoolOne">
+                <p class="skillFigma">Figma (3)</p>
+                <p class="skillXd">Adobe XD (2)</p>
+                <p class="skillPs">Adobe photoshop (3)</p>
+                <p class="skillIll">Adobe Illustrator (3)</p>
+                <p class="skillAe">Adobe After Effect (2)</p>
+            </div>
+            <div class="designtoolTwo">
+                <p class="skillMax">3ds Max (2)</p>
+                <p class="skillSp">Substance Painter (1)</p>
+                <p class="skillR">RStudio (1)</p>
+            </div>
+        </div>
+        <div class="skillsetMobile">
+            <p class="skillsetMobiletitleOne">Programming language</p>
+            <div class="skillsetMobileWrapPro">
+                <div class="skillsetMobileWrap">
+                    <p>HTML (3)</p>
+                    <p>CSS (3)</p>
+                    <p>JavaScript (2)</p>
+                </div>
+                <div class="skillsetMobileWrap">
+                    <p>React (2)</p>
+                    <p>jQuery (1)</p>
+                    <p>TypeScript (1)</p>
+                </div>
+                <div class="skillsetMobileWrap">
+                    <p>Node.js (1)</p>
+                    <p>SASS (1)</p>
+                    <p>Bootstrap (2)</p>
+                </div>
+            </div>
+            <p class="skillsetMobiletitleTwo">Design Tool</p>
+            <div class="skillsetMobileWrapDesign">
+                <div class="skillsetMobileWrap">
+                    <p>Figma (3)</p>
+                    <p>Adobe XD (2)</p>
+                    <p>3ds Max (2)</p>
+                </div>
+                <div class="skillsetMobileWrap">
+                    <p>Adobe photoshop (3)</p>
+                    <p>Adobe Illustrator (3)</p>
+                    <p>Adobe After Effect (2)</p>
+                </div>
+                <div class="skillsetMobileWrapTwo">
+                    <p>
+                        Substance<br>
+                        Painter (1)
+                    </p>
+                    <p>RStudio (1)</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- <section class="growUp">
-                    <p>성실함과 끈기를 무기로 끊임없이 발전해 온, 더욱 발전해 나갈 이혜영입니다</p>
-                </section> -->
-            </article>
+    <!-- work -->
+    <section id="work">
+        <p class="workTitle title">My works</p>
+        <div class="workWrapCont">
+            <div class="workWrap">
+                <div class="workOne workImg"></div>
+                <p class="workWrapTitle">Until GAMEOVER</p>
+                <p class="workWrapText">HTML, CSS, JavaScript</p>
+            </div>
+            <div class="workWrap">
+                <div class="workTwo workImg"></div>
+                <p class="workWrapTitle">1만 시간의 법칙</p>
+                <p class="workWrapText">HTML, CSS, JavaScript</p>
+            </div>
+            <div class="workWrap">
+                <div class="workThree workImg"></div>
+                <p class="workWrapTitle">뮤지컬 '팬레터' 소개 페이지</p>
+                <p class="workWrapText">HTML, CSS, JavaScript</p>
+            </div>
+            <div class="workWrap">
+                <div class="workFour workImg"></div>
+                <p class="workWrapTitle">Portfolio</p>
+                <p class="workWrapText">HTML, CSS, JavaScript</p>
+            </div>
+            <div class="workWrap">
+                <div class="workFive workImg"></div>
+                <p class="workWrapTitle">마이보카</p>
+                <p class="workWrapText">HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="workWrap">
+                <div class="workSix workImg"></div>
+                <p class="workWrapTitle">HODU</p>
+                <p class="workWrapText">HTML, CSS, JavaScript, React</p>
+            </div>
+        </div>
+    </section>
 
-            <!-- strength -->
-            <!-- <article class="strength">
-                <section class="strengthTitle titleMove">
-                    <h1 class="titleShadow">strength</h1>
-                    <p class="titleStyle">strength</p>
-                </section>
-                <section class="strengthWrap">
-                    <section class="communicate">
-                        <h1 class="strengthH1">소통하는 개발자</h1>
-                        <p class="strengthP">복수 전공을 통해 기획과 디자인을, 멋쟁이 사자처럼을 통해 Back-end를 경험해 본 적이 있습니다.<br>
-                            이러한 경험은 기획자, 디자이너, Back-end 개발자 등과 소통하는데 도움이 될 것입니다.</p>
-                    </section>
-                    <section class="solve">
-                        <h1 class="strengthH1">스스로 문제를 해결할 수 있는 개발자</h1>
-                        <p class="strengthP">아무것도 모르는 채로 복수 전공을 시작한 저는<br>
-                            2021년 3월, 졸업작품 제출을 위해 HTML, CSS, JavaScript를 처음 접하게 되었습니다.<br>
-                            Until Gameover라는 점프 게임을 제작하였는데, 제작 과정에서 다양한 문제를 맞닥뜨렸습니다.<br>
-                            그럴 때마다 저는 구글, 유튜브, 책등을 이용하여 적극적으로 문제를 해결해나갔고,<br>
-                            그 결과 졸업작품에서 우수한 성적을 받았습니다.<br>
-                            저는 이러한 경험을 통해 문제를 스스로 해결하고 성장하는 방법을 배웠습니다. </p>
-                    </section>
-                    <section class="uxui">
-                        <h1 class="strengthH1">디자인 의도를 잘 파악하고 구현할 수 있는 개발자</h1>
-                        <p class="strengthP">인터페이스 디자인, 웹 디자인 등의 수업을 통해 UI/UX 설계와 디자인을 경험해 본 적이 있습니다.<br>
-                            이러한 경험은 디자이너의 디자인 의도를 파악하고, 이를 구현하는 것에 도움이 될 것입니다.</p>
-                    </section>
-                </section>
-            </article> -->
+    <!-- Contact -->
+    <footer id="footer">
+        <div class="contactWave"></div>
+        <div class="contactWrap">
+            <p class="contactText">2022 Portfolio | Front-end Developer</p>
+            <div class="contactIcon">
+                <div class="github"></div>
+                <a href="mailto:leehy0782@gmail.com">
+                    <div class="email"></div>
+                </a>
+                <a href="tel:01062086377">
+                    <div class="phone"></div>
+                </a>
+                <div class="velog"></div>
+            </div>
+        </div>
+    </footer>
 
-            <!-- skill set -->
-            <!-- <article class="skillSet">
-                <section class="skillTitle titleMove">
-                    <h1 class="titleShadow">Skills</h1>
-                    <p class="titleStyle">Skills</p>
-                </section>
+    <section id="nav" class="close">
+        <div class="navMeunWrap">
+            <a href="#home">
+                <p class="navHome">Home</p>
+            </a>
+            <a href="#about">
+                <p class="navAbout">About</p>
+            </a>
+            <a href="#skills">
+                <p class="navSkills">Skills</p>
+            </a>
+            <a href="#work">
+                <p class="navWork">My work</p>
+            </a>
+            <a href="#footer">
+                <p class="navContact">Contact</p>
+            </a>
+        </div>
+        <div class="navIcon">
+            <div class="navGithub"></div>
+            <a class="navEmail" href="mailto:leehy0782@gmail.com"></a>
+            <a class="navPhone" href="tel:01062086377"></a>
+            <div class="navVelog"></div>
+        </div>
+    </section>
 
-                <section class="skillEx">
-                    <table class="ref">
-                        <thead>
-                            <tr class="first">
-                                <th>1 - Basic</th>
-                                <th>2 - Demonstrating</th>
-                                <th>3 - Proficient</th>
-                                <th>4 - Expert</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="second">
-                                <td>
-                                    <p class="levOne">
-                                        관련 지식이나 경험이 매우<br>
-                                        제한적이며 기본적인 업무 수행에도<br>
-                                        상당한 도움이 필요한 수준.<br>
-                                        업무 관련 꾸준한 학습이 필요함</p>
-                                </td>
-                                <td>
-                                    <p class="levTwo">
-                                        매우 능숙하진 않으나 경험이 있고,<br>
-                                        기본적인 업무 수행이 가능한 수준.<br>
-                                        업무 수행을 위해 추가적인 학습이나<br>
-                                        타인의 도움이 필요할 수 있음</p>
-                                </td>
-                                <td>
-                                    <p class="levThree">
-                                        관련 지식과 경험이 풍부한 편이며<br>
-                                        능숙하게 업무 가능한 수준.<br>
-                                        업무 수행에 특별한 도움이 필요없음.</p>
-                                </td>
-                                <td>
-                                    <p class="levFour">
-                                        관련 지식과 경험이 많고 매우<br>
-                                        유능하며 다른 사람을 리드하고<br>
-                                        교육할 수 있는 정도의 수준</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <section class="skillWrap">
-                        <section class="nameOne">
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                            <p>jQuery</p>
-                            <p>React</p>
-                            <p>Node.js</p>
-                            <p>SASS</p>
-                            <p>Bootstrap</p>
-                        </section>
-                        <section class="barOne">
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                        </section>
-                        <section class="nameTwo">
-                            <p>Adobe Photoshop</p>
-                            <p>Adobe Illustrator</p>
-                            <p>Adobe After Effects</p>
-                            <p>Figma</p>
-                            <p>Adobe XD</p>
-                            <p>3ds Max</p>
-                            <p>Substance Painter</p>
-                            <p>RStudio</p>
-                        </section>
-                        <section class="barTwo">
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                            <section class="progressBody">
-                                <section class="inside3"></section>
-                            </section>
-                        </section>
-
-                    </section>
-                </section>
-        </section>
-        </article>
-
-        <article class="project">
-            <section id="hambuger">
-                <ul class="lineWrap">
-                    <li class="one line"></li>
-                    <li class="two line"></li>
-                    <li class="three line"></li>
-                </ul>
-            </section>
-
-            <section class="micro">
-                <section class="hours page">시간</section>
-                <section class="pofol page">포폴</section>
-                <section class="untilGameover page">점프</section>
-                <section class="mandarin page">감귤</section>
-
-                <section class="macro">
-                    <section class="projectTitle titleMove">
-                        <h1 class="titleShadow">Project</h1>
-                        <p class="titleStyle">Project</p>
-                    </section> -->
-                    
-                    <!-- Slide -->
-                    <!-- 2022.01.10 기능만 구현함 -->
-
-                    <!-- <section class="slideWrap">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active one"></div>
-                              <div class="carousel-item two"></div>
-                              <div class="carousel-item three"></div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div> -->
-
-                        <!-- <div class="slideBox">
-                            <div class="slideList">
-                                <div class="sildeContent one"></div>
-                                <div class="sildeContent two"></div>
-                                <div class="sildeContent three"></div>
-                                <div class="sildeContent four"></div>
-                                <div class="sildeContent five"></div>
-                            </div>
-                        </div> -->
-                    <!-- </section>
-                </section>
-            </section>
-        </article> -->
-
-        <!-- <footer id="madeBy"></footer> -->
-
-        <script src="./js/main.js"></script>
-        <script src="./js/hamburger.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="./js/Nav.js"></script>
+    <script defer src="./js/work.js"></script>
 </body>
-
 </html>

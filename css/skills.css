@@ -1,0 +1,189 @@
+#skills {
+    width: 100vw;
+    background-color: #F9F9F9;
+}
+
+.skillsTitle {
+    padding-top: 10rem;
+}
+
+.skillsLevel {
+    display: flex;
+    justify-content: center;
+}
+
+.skillsLevelWrap {
+    display: flex;
+    width: 92rem;
+    justify-content: space-between;
+    margin-top: 5.063rem;
+}
+
+.skillsLevelOne,
+.skillsLevelTwo,
+.skillsLevelThree,
+.skillsLevelFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsLevelImgOne,
+.skillsLevelImgTwo,
+.skillsLevelImgThree,
+.skillsLevelImgFour {
+    width: 5.938rem;
+    height: 6.563rem;
+    margin-bottom: 1.75rem;
+}
+
+.skillsLevelImgOne {
+    background-image: url(../img/01.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelImgTwo {
+    background-image: url(../img/02.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelImgThree {
+    background-image: url(../img/03.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelImgFour {
+    background-image: url(../img/04.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelTextOne,
+.skillsLevelTextTwo,
+.skillsLevelTextThree,
+.skillsLevelTextFour {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.563rem;
+    text-align: center;
+    color: #818181;
+}
+
+/* skillSet */
+
+.skillsetMobile {
+    display: none;
+}
+
+.skillSet {
+    display: flex;
+    width: 78.875rem;
+    padding-bottom: 9.625rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 7.313rem;
+}
+
+.programmingOne,
+.programmingTwo,
+.designtoolOne,
+.designtoolTwo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    color: #0F0F0F;
+}
+
+.programmingOne,
+.designtoolOne {
+    height: 23.313rem;
+}
+
+.programmingTwo {
+    height: 18rem;
+}
+
+.designtoolTwo {
+    height: 12.688rem;
+}
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){    
+    .skillsTitle {
+        padding-top: 12rem;
+    }
+
+    .skillsLevel {
+        display: none;
+    }
+    
+    .skillLevelMobile {
+        width: 40.75rem;
+        height: 29.625rem;
+        background-image: url(../img/levelMobile.svg);
+        background-size: 100% 100%;
+        margin: 0 auto;
+        margin-top: 6.25rem;
+    }
+
+    /* skillSet */
+
+    .skillSet {
+        display: none;
+    }
+
+    .skillsetMobile {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        align-items: center;
+    }
+
+    .skillsetMobiletitleOne,
+    .skillsetMobiletitleTwo {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #E6CDB5;
+    }
+
+    .skillsetMobileWrapPro,
+    .skillsetMobileWrapDesign {
+        display: flex;
+        width: 40.75rem;
+        justify-content: space-between;
+        margin-top: 3.375rem;
+    }
+
+    .skillsetMobileWrapPro {
+        margin-bottom: 6rem;
+    }
+
+    .skillsetMobileWrap,
+    .skillsetMobileWrapTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .skillsetMobileWrap {
+        height: 11.75rem;
+    }
+
+    .skillsetMobileWrapTwo {
+        height: 6.875rem;
+        margin-bottom: 12rem;
+    }
+
+    @media all and (max-width: 374px){
+        .skillLevelMobile,
+        .skillsetMobile {
+            transform: scale(0.85);
+        }
+
+        .skillsetMobile {
+            margin-top: 3rem;
+        }
+    }
+}
